@@ -15,6 +15,14 @@ virtualenv/
 # Streamlit
 .streamlit/secrets.toml
 
+
+# No uso
+NoUso/
+
+#Datos generados con ejecucion
+catalogos.joblib
+model_accidentes.joblib
+
 # IDE
 .vscode/
 .idea/
