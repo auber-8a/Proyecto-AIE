@@ -37,7 +37,7 @@ flowchart TD
 ---
 
 #### B. Registro Auditable de Copiloto IA (Requisito estricto de la Rúbrica)
-El documento exige evidenciar qué modelos de IA se usaron como copiloto y con qué prompts. Añade esta sección al final de tu `README.md`[cite: 1, 2]:
+El documento exige evidenciar qué modelos de IA se usaron como copiloto y con qué prompts. Añade esta sección al final de tu `README.md`:
 
 ```markdown
 ## Registro de Uso de IA como Copiloto (Trazabilidad)
@@ -46,7 +46,7 @@ El documento exige evidenciar qué modelos de IA se usaron como copiloto y con q
 * **Versión:** Agosto 2026.
 * **Componentes Asistidos:**
   1. *Estructuración del Pipeline de Scikit-Learn:* Diseño del preprocesamiento con `OneHotEncoder` y balanceo de pesos en `RandomForestClassifier`.
-  2. *Optimización Geoespacial en Streamlit:* Configuración de capas `mapbox` sin API Key y estandarización de nombres de cantones[cite: 8].
+  2. *Optimización Geoespacial en Streamlit:* Configuración de capas `mapbox` sin API Key y estandarización de nombres de cantones.
   3. *Manejo Dinámico de Dependencias:* Vinculación reactiva entre provincias y cantones en los selectores de Streamlit.
 * **Prompts Principales Ejecutados:**
   * *"Cómo estructurar un pipeline en scikit-learn que maneje variables categóricas de alta cardinalidad para predecir severidad de accidentes."*
